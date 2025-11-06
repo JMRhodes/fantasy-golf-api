@@ -1,0 +1,5 @@
+name: fantasy-golf-api
+services:
+  database:
+    type: postgres:17
+    portforward: true

@@ -1,0 +1,7 @@
+@hostname = localhost
+@port = 3333
+@host = {{hostname}}:{{port}}
+@contentType = application/json
+
+GET http://{{host}}/players
+Content-Type: {{contentType}}
