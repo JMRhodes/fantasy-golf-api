@@ -3,5 +3,11 @@
 @host = {{hostname}}:{{port}}
 @contentType = application/json
 
+###
 GET http://{{host}}/players
+Content-Type: {{contentType}}
+
+###
+
+GET http://{{host}}/players/2
 Content-Type: {{contentType}}

@@ -29,7 +29,10 @@ export default class PlayersController {
   /**
    * Display a single post by id.
    */
-  async show({ params }: HttpContext) {}
+  async show({ params }: HttpContext) {
+    const player = await this.playerService.find(params.id)
+    return { data: player }
+  }
 
   /**
    * Handle the form submission to update a specific post by id

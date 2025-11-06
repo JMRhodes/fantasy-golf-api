@@ -9,6 +9,9 @@ export default class Player extends BaseModel {
   declare name: string
 
   @column()
+  declare pgaId: number
+
+  @column()
   declare salary: number
 
   @column.dateTime({ autoCreate: true })
