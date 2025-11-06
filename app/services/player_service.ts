@@ -7,4 +7,7 @@ export class PlayerService {
   async find(id: number) {
     return await db.from('players').where('id', id).first()
   }
+  async delete(id: number) {
+    return await db.from('players').where('id', id).delete()
+  }
 }
