@@ -1,0 +1,13 @@
+@hostname = localhost
+@port = 3333
+@host = {{hostname}}:{{port}}
+@contentType = application/json
+
+###
+GET http://{{host}}/tournaments
+Content-Type: {{contentType}}
+
+###
+
+GET http://{{host}}/tournaments/2
+Content-Type: {{contentType}}
