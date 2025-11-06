@@ -58,6 +58,7 @@ cp .env.example .env
 ```
 
 Required environment variables:
+
 ```env
 PORT=3333
 HOST=localhost
@@ -73,6 +74,7 @@ DB_DATABASE=app
 ```
 
 Generate your application key:
+
 ```bash
 node ace generate:key
 ```
@@ -97,6 +99,7 @@ node ace db:seed
 1. Create a PostgreSQL database
 2. Update `.env` with your database credentials
 3. Run migrations:
+
 ```bash
 node ace migration:run
 ```
@@ -113,13 +116,13 @@ The API will be available at `http://localhost:3333`
 
 ### Players
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/players` | List all players |
-| POST | `/players` | Create a new player |
-| GET | `/players/:id` | Get a specific player |
-| PUT/PATCH | `/players/:id` | Update a player |
-| DELETE | `/players/:id` | Delete a player |
+| Method    | Endpoint       | Description           |
+| --------- | -------------- | --------------------- |
+| GET       | `/players`     | List all players      |
+| POST      | `/players`     | Create a new player   |
+| GET       | `/players/:id` | Get a specific player |
+| PUT/PATCH | `/players/:id` | Update a player       |
+| DELETE    | `/players/:id` | Delete a player       |
 
 ### Example Response
 
@@ -219,6 +222,7 @@ import { middleware } from '#start/kernel'
 ```
 
 Available aliases:
+
 - `#controllers/*` → `./app/controllers/*.js`
 - `#models/*` → `./app/models/*.js`
 - `#services/*` → `./app/services/*.js`
@@ -238,7 +242,7 @@ Controllers are kept thin by delegating business logic to service classes:
 @inject()
 export default class PlayersController {
   constructor(private playerService: PlayerService) {}
-  
+
   async index() {
     const players = await this.playerService.all()
     return { data: players }
@@ -272,6 +276,7 @@ The application uses a three-tier middleware architecture:
 ### Authentication
 
 Token-based authentication using `@adonisjs/auth`:
+
 - Access tokens stored in the database
 - Tokens managed via `DbAccessTokensProvider`
 - Auth guard configured as 'api' with `tokensGuard`
@@ -298,25 +303,25 @@ node ace test --files="tests/functional/**/*.spec.ts"
 
 ### Players Table
 
-| Column | Type | Description |
-|--------|------|-------------|
-| id | integer | Primary key |
-| name | string | Player name |
-| pga_id | integer | Unique PGA identifier |
-| salary | integer | Player salary |
-| created_at | timestamp | Created timestamp |
-| updated_at | timestamp | Updated timestamp |
+| Column     | Type      | Description           |
+| ---------- | --------- | --------------------- |
+| id         | integer   | Primary key           |
+| name       | string    | Player name           |
+| pga_id     | integer   | Unique PGA identifier |
+| salary     | integer   | Player salary         |
+| created_at | timestamp | Created timestamp     |
+| updated_at | timestamp | Updated timestamp     |
 
 ### Users Table
 
-| Column | Type | Description |
-|--------|------|-------------|
-| id | integer | Primary key |
-| full_name | string | User's full name |
-| email | string | User email (unique) |
-| password | string | Hashed password |
-| created_at | timestamp | Created timestamp |
-| updated_at | timestamp | Updated timestamp |
+| Column     | Type      | Description         |
+| ---------- | --------- | ------------------- |
+| id         | integer   | Primary key         |
+| full_name  | string    | User's full name    |
+| email      | string    | User email (unique) |
+| password   | string    | Hashed password     |
+| created_at | timestamp | Created timestamp   |
+| updated_at | timestamp | Updated timestamp   |
 
 ## Production
 
