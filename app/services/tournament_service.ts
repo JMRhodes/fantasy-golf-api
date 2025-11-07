@@ -1,16 +1,15 @@
 import Tournament from '#models/tournament'
 import db from '@adonisjs/lucid/services/db'
-import type { Infer } from '@vinejs/vine/types'
-import type { TournamentSchema } from '#validators/tournament'
+import type { TournamentSchemaType } from '#validators/tournament'
 import { DateTime } from 'luxon'
 export class TournamentService {
-  async all() {
+  async all(): Promise<Tournament[]> {
     return await db
       .from('tournaments')
       .select('id', 'name', 'description', 'status', 'start_date', 'end_date')
   }
 
-  async create(payload: Infer<typeof TournamentSchema>) {
+  async create(payload: TournamentSchemaType): Promise<Tournament> {
     const tournament = await Tournament.create({
       name: payload.name,
       description: payload.description,
@@ -22,7 +21,7 @@ export class TournamentService {
     return tournament
   }
 
-  async find(id: number) {
+  async find(id: number): Promise<Tournament | null> {
     return await db.from('tournaments').where('id', id).first()
   }
 

@@ -28,8 +28,13 @@ export default class TournamentsController {
    * @param param0
    * @returns
    */
-  async show({ params }: HttpContext) {
+  async show({ response, params }: HttpContext) {
     const tournament = await this.tournamentService.find(params.id)
+
+    if (!tournament) {
+      return response.status(404).json({ message: 'Tournament not found' })
+    }
+
     return { data: tournament }
   }
 

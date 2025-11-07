@@ -1,4 +1,5 @@
 import vine from '@vinejs/vine'
+import { Infer } from '@vinejs/vine/types'
 
 enum TournamentStatus {
   UPCOMING = 'upcoming',
@@ -14,4 +15,5 @@ export const TournamentSchema = vine.object({
   endDate: vine.date(),
 })
 
+export type TournamentSchemaType = Infer<typeof TournamentSchema>
 export const createTournamentValidator = vine.compile(TournamentSchema)
