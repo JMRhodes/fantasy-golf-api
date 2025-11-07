@@ -1,13 +1,19 @@
 @hostname = localhost
 @port = 3333
 @host = {{hostname}}:{{port}}
+@version = api/v1
 @contentType = application/json
 
 ###
-GET http://{{host}}/players
+GET http://{{host}}/{{version}}/players
 Content-Type: {{contentType}}
 
 ###
 
-GET http://{{host}}/players/2
+GET http://{{host}}/{{version}}/players/4
+Content-Type: {{contentType}}
+
+###
+
+DELETE http://{{host}}/{{version}}/players/3
 Content-Type: {{contentType}}

@@ -19,15 +19,17 @@ const adminjsConfig: AdminJSProviderConfig = {
         resource: new LucidResource(Player, 'postgres'),
         options: {
           navigation: {
-            name: 'Players',
+            name: null,
           },
+          listProperties: ['id', 'name', 'salary'],
         },
       },
       {
         resource: new LucidResource(User, 'postgres'),
         options: {
           navigation: {
-            name: 'Users',
+            name: null,
+            icon: 'User',
           },
           editProperties: ['fullName', 'email', 'password'],
         },
@@ -61,7 +63,7 @@ const adminjsConfig: AdminJSProviderConfig = {
       theme: {},
     },
     settings: {
-      defaultPerPage: 10,
+      defaultPerPage: 25,
     },
   },
   auth: {

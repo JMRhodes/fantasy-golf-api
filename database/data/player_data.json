@@ -1,0 +1,1022 @@
+[
+  {
+    "pga_id": 46046,
+    "name": "Scottie Scheffler",
+    "salary": 2600000
+  },
+  {
+    "pga_id": 48081,
+    "name": "Xander Schauffele",
+    "salary": 2550000
+  },
+  {
+    "pga_id": 28237,
+    "name": "Rory McIlroy",
+    "salary": 2500000
+  },
+  {
+    "pga_id": 50525,
+    "name": "Collin Morikawa",
+    "salary": 2450000
+  },
+  {
+    "pga_id": 52955,
+    "name": "Ludvig Aberg",
+    "salary": 2400000
+  },
+  {
+    "pga_id": 35450,
+    "name": "Patrick Cantlay",
+    "salary": 2350000
+  },
+  {
+    "pga_id": 46717,
+    "name": "Viktor Hovland",
+    "salary": 2300000
+  },
+  {
+    "pga_id": 51766,
+    "name": "Wyndham Clark",
+    "salary": 2250000
+  },
+  {
+    "pga_id": 32839,
+    "name": "Hideki Matsuyama",
+    "salary": 2200000
+  },
+  {
+    "pga_id": 51634,
+    "name": "Sahith Theegala",
+    "salary": 2150000
+  },
+  {
+    "pga_id": 34098,
+    "name": "Russell Henley",
+    "salary": 2150000
+  },
+  {
+    "pga_id": 29725,
+    "name": "Tony Finau",
+    "salary": 2100000
+  },
+  {
+    "pga_id": 39971,
+    "name": "Sungjae Im",
+    "salary": 2050000
+  },
+  {
+    "pga_id": 30911,
+    "name": "Tommy Fleetwood",
+    "salary": 2000000
+  },
+  {
+    "pga_id": 33448,
+    "name": "Justin Thomas",
+    "salary": 1950000
+  },
+  {
+    "pga_id": 34046,
+    "name": "Jordan Spieth",
+    "salary": 1900000
+  },
+  {
+    "pga_id": 37378,
+    "name": "Min Woo Lee",
+    "salary": 1850000
+  },
+  {
+    "pga_id": 47504,
+    "name": "Sam Burns",
+    "salary": 1800000
+  },
+  {
+    "pga_id": 39977,
+    "name": "Max Homa",
+    "salary": 1750000
+  },
+  {
+    "pga_id": 29420,
+    "name": "Billy Horschel",
+    "salary": 1700000
+  },
+  {
+    "pga_id": 55182,
+    "name": "Tom Kim",
+    "salary": 1650000
+  },
+  {
+    "pga_id": 33204,
+    "name": "Shane Lowry",
+    "salary": 1600000
+  },
+  {
+    "pga_id": 52215,
+    "name": "Robert MacIntyre",
+    "salary": 1550000
+  },
+  {
+    "pga_id": 40098,
+    "name": "Matthew Fitzpatrick",
+    "salary": 1500000
+  },
+  {
+    "pga_id": 46414,
+    "name": "Aaron Rai",
+    "salary": 1450000
+  },
+  {
+    "pga_id": 58168,
+    "name": "Davis Thompson",
+    "salary": 1400000
+  },
+  {
+    "pga_id": 57366,
+    "name": "Cameron Young",
+    "salary": 1350000
+  },
+  {
+    "pga_id": 40250,
+    "name": "Taylor Pendrith",
+    "salary": 1300000
+  },
+  {
+    "pga_id": 28089,
+    "name": "Jason Day",
+    "salary": 1250000
+  },
+  {
+    "pga_id": 56630,
+    "name": "Akshay Bhatia",
+    "salary": 1200000
+  },
+  {
+    "pga_id": 59866,
+    "name": "Nick Dunlap",
+    "salary": 1150000
+  },
+  {
+    "pga_id": 48153,
+    "name": "Matthieu Pavon",
+    "salary": 1100000
+  },
+  {
+    "pga_id": 33141,
+    "name": "Keegan Bradley",
+    "salary": 1050000
+  },
+  {
+    "pga_id": 24502,
+    "name": "Adam Scott",
+    "salary": 1050000
+  },
+  {
+    "pga_id": 33399,
+    "name": "Adam Hadwin",
+    "salary": 1000000
+  },
+  {
+    "pga_id": 47993,
+    "name": "Denny McCarthy",
+    "salary": 1000000
+  },
+  {
+    "pga_id": 40006,
+    "name": "Erik van Rooyen",
+    "salary": 1000000
+  },
+  {
+    "pga_id": 45242,
+    "name": "Kevin Yu",
+    "salary": 995000
+  },
+  {
+    "pga_id": 33948,
+    "name": "Byeong-Hun An",
+    "salary": 990000
+  },
+  {
+    "pga_id": 47483,
+    "name": "Will Zalatoris",
+    "salary": 985000
+  },
+  {
+    "pga_id": 51977,
+    "name": "Max Greyserman",
+    "salary": 980000
+  },
+  {
+    "pga_id": 46442,
+    "name": "Maverick McNealy",
+    "salary": 980000
+  },
+  {
+    "pga_id": 34363,
+    "name": "Tyrrell Hatton",
+    "salary": 975000
+  },
+  {
+    "pga_id": 27644,
+    "name": "Brian Harman",
+    "salary": 970000
+  },
+  {
+    "pga_id": 22405,
+    "name": "Justin Rose",
+    "salary": 970000
+  },
+  {
+    "pga_id": 33653,
+    "name": "Thomas Detry",
+    "salary": 965000
+  },
+  {
+    "pga_id": 36799,
+    "name": "Stephan Jaeger",
+    "salary": 960000
+  },
+  {
+    "pga_id": 47420,
+    "name": "Jake Knapp",
+    "salary": 955000
+  },
+  {
+    "pga_id": 45522,
+    "name": "Christiaan Bezuidenhout",
+    "salary": 950000
+  },
+  {
+    "pga_id": 45157,
+    "name": "Cameron Davis",
+    "salary": 950000
+  },
+  {
+    "pga_id": 30926,
+    "name": "Chris Kirk",
+    "salary": 945000
+  },
+  {
+    "pga_id": 54591,
+    "name": "Ben Griffin",
+    "salary": 945000
+  },
+  {
+    "pga_id": 27349,
+    "name": "Alex Noren",
+    "salary": 940000
+  },
+  {
+    "pga_id": 32102,
+    "name": "Rickie Fowler",
+    "salary": 935000
+  },
+  {
+    "pga_id": 25493,
+    "name": "Nick Taylor",
+    "salary": 930000
+  },
+  {
+    "pga_id": 49960,
+    "name": "Sepp Straka",
+    "salary": 925000
+  },
+  {
+    "pga_id": 37455,
+    "name": "Si Woo Kim",
+    "salary": 920000
+  },
+  {
+    "pga_id": 51349,
+    "name": "Nicolas Echavarria",
+    "salary": 915000
+  },
+  {
+    "pga_id": 52686,
+    "name": "Rasmus Hojgaard",
+    "salary": 910000
+  },
+  {
+    "pga_id": 52453,
+    "name": "Nicolai Hojgaard",
+    "salary": 905000
+  },
+  {
+    "pga_id": null,
+    "name": "Viktor Perez",
+    "salary": 900000
+  },
+  {
+    "pga_id": 57362,
+    "name": "Austin Eckroat",
+    "salary": 895000
+  },
+  {
+    "pga_id": 49947,
+    "name": "Taylor Moore",
+    "salary": 890000
+  },
+  {
+    "pga_id": 39997,
+    "name": "Corey Conners",
+    "salary": 885000
+  },
+  {
+    "pga_id": 47347,
+    "name": "Adam Schenk",
+    "salary": 880000
+  },
+  {
+    "pga_id": 34099,
+    "name": "Harris English",
+    "salary": 875000
+  },
+  {
+    "pga_id": 49771,
+    "name": "J.T. Poston",
+    "salary": 870000
+  },
+  {
+    "pga_id": 55893,
+    "name": "Sam Stevens",
+    "salary": 865000
+  },
+  {
+    "pga_id": 31646,
+    "name": "Emiliano Grillo",
+    "salary": 860000
+  },
+  {
+    "pga_id": 30927,
+    "name": "Brendon Todd",
+    "salary": 855000
+  },
+  {
+    "pga_id": 48117,
+    "name": "Kurt Kitayama",
+    "salary": 850000
+  },
+  {
+    "pga_id": 35532,
+    "name": "Tom Hoge",
+    "salary": 845000
+  },
+  {
+    "pga_id": 35506,
+    "name": "Mackenzie Hughes",
+    "salary": 840000
+  },
+  {
+    "pga_id": 35461,
+    "name": "Beau Hossler",
+    "salary": 835000
+  },
+  {
+    "pga_id": 34466,
+    "name": "Peter Malnati",
+    "salary": 830000
+  },
+  {
+    "pga_id": 34213,
+    "name": "Grayson Murray",
+    "salary": 825000
+  },
+  {
+    "pga_id": 27139,
+    "name": "David Skinns",
+    "salary": 820000
+  },
+  {
+    "pga_id": 36699,
+    "name": "Patrick Rodgers",
+    "salary": 815000
+  },
+  {
+    "pga_id": 27129,
+    "name": "Luke List",
+    "salary": 810000
+  },
+  {
+    "pga_id": 32757,
+    "name": "Patton Kizzire",
+    "salary": 805000
+  },
+  {
+    "pga_id": 50484,
+    "name": "Hayden Springer",
+    "salary": 800000
+  },
+  {
+    "pga_id": 52666,
+    "name": "Sami Valimaki",
+    "salary": 795000
+  },
+  {
+    "pga_id": 29936,
+    "name": "Ryan Fox",
+    "salary": 790000
+  },
+  {
+    "pga_id": 47591,
+    "name": "Eric Cole",
+    "salary": 785000
+  },
+  {
+    "pga_id": null,
+    "name": "CT Pan",
+    "salary": 780000
+  },
+  {
+    "pga_id": 47995,
+    "name": "Davis Riley",
+    "salary": 775000
+  },
+  {
+    "pga_id": 36884,
+    "name": "Ben Kohles",
+    "salary": 770000
+  },
+  {
+    "pga_id": 40115,
+    "name": "Adam Svensson",
+    "salary": 765000
+  },
+  {
+    "pga_id": 51287,
+    "name": "Ryo Hisatsune",
+    "salary": 760000
+  },
+  {
+    "pga_id": 39546,
+    "name": "Keith Mitchell",
+    "salary": 755000
+  },
+  {
+    "pga_id": 23108,
+    "name": "Matt Kuchar",
+    "salary": 750000
+  },
+  {
+    "pga_id": 34256,
+    "name": "Andrew Putnam",
+    "salary": 745000
+  },
+  {
+    "pga_id": 39975,
+    "name": "Michael Kim",
+    "salary": 740000
+  },
+  {
+    "pga_id": 52513,
+    "name": "Carson Young",
+    "salary": 730000
+  },
+  {
+    "pga_id": 40162,
+    "name": "Justin Lower",
+    "salary": 720000
+  },
+  {
+    "pga_id": 39324,
+    "name": "J.J. Spaun",
+    "salary": 710000
+  },
+  {
+    "pga_id": null,
+    "name": "Kyoung-Hoon Lee",
+    "salary": 705000
+  },
+  {
+    "pga_id": 36801,
+    "name": "Mark Hubbard",
+    "salary": 690000
+  },
+  {
+    "pga_id": 28775,
+    "name": "Nate Lashley",
+    "salary": 685000
+  },
+  {
+    "pga_id": 51997,
+    "name": "Andrew Novak",
+    "salary": 680000
+  },
+  {
+    "pga_id": 59143,
+    "name": "Mac Meissner",
+    "salary": 675000
+  },
+  {
+    "pga_id": 59095,
+    "name": "Chris Gotterup",
+    "salary": 670000
+  },
+  {
+    "pga_id": 29535,
+    "name": "Brice Garnett",
+    "salary": 665000
+  },
+  {
+    "pga_id": 52375,
+    "name": "Doug Ghim",
+    "salary": 660000
+  },
+  {
+    "pga_id": 55789,
+    "name": "Taylor Montgomery",
+    "salary": 655000
+  },
+  {
+    "pga_id": 54421,
+    "name": "Garrick Higgo",
+    "salary": 650000
+  },
+  {
+    "pga_id": 51890,
+    "name": "Greyson Sigg",
+    "salary": 645000
+  },
+  {
+    "pga_id": 48867,
+    "name": "Matti Schmid",
+    "salary": 640000
+  },
+  {
+    "pga_id": 57975,
+    "name": "Harry Hall",
+    "salary": 630000
+  },
+  {
+    "pga_id": 25900,
+    "name": "Lucas Glover",
+    "salary": 620000
+  },
+  {
+    "pga_id": 54628,
+    "name": "Lee Hodges",
+    "salary": 610000
+  },
+  {
+    "pga_id": 60067,
+    "name": "Joe Highsmith",
+    "salary": 600000
+  },
+  {
+    "pga_id": 54576,
+    "name": "Patrick Fishburn",
+    "salary": 590000
+  },
+  {
+    "pga_id": 37275,
+    "name": "Sam Ryder",
+    "salary": 580000
+  },
+  {
+    "pga_id": 29221,
+    "name": "Webb Simpson",
+    "salary": 570000
+  },
+  {
+    "pga_id": 39058,
+    "name": "Lucas Herbert",
+    "salary": 560000
+  },
+  {
+    "pga_id": 27214,
+    "name": "Kevin Streelman",
+    "salary": 550000
+  },
+  {
+    "pga_id": 57900,
+    "name": "Chandler Phillips",
+    "salary": 545000
+  },
+  {
+    "pga_id": null,
+    "name": "Vincent Whaley",
+    "salary": 540000
+  },
+  {
+    "pga_id": 51696,
+    "name": "Rico Hoey",
+    "salary": 535000
+  },
+  {
+    "pga_id": 36326,
+    "name": "David Lipsky",
+    "salary": 530000
+  },
+  {
+    "pga_id": 34587,
+    "name": "Chan Kim",
+    "salary": 525000
+  },
+  {
+    "pga_id": 26476,
+    "name": "Chez Reavie",
+    "salary": 520000
+  },
+  {
+    "pga_id": 40058,
+    "name": "Zac Blair",
+    "salary": 515000
+  },
+  {
+    "pga_id": 8793,
+    "name": "Tiger Woods",
+    "salary": 510000
+  },
+  {
+    "pga_id": 55708,
+    "name": "Hayden Buckley",
+    "salary": 505000
+  },
+  {
+    "pga_id": 46340,
+    "name": "Alex Smalley",
+    "salary": 500000
+  },
+  {
+    "pga_id": 34563,
+    "name": "Chesson Hadley",
+    "salary": 495000
+  },
+  {
+    "pga_id": 32070,
+    "name": "Rafael Campos",
+    "salary": 490000
+  },
+  {
+    "pga_id": 40026,
+    "name": "Daniel Berger",
+    "salary": 485000
+  },
+  {
+    "pga_id": 28252,
+    "name": "Seamus Power",
+    "salary": 480000
+  },
+  {
+    "pga_id": 31323,
+    "name": "Gary Woodland",
+    "salary": 475000
+  },
+  {
+    "pga_id": 49964,
+    "name": "Aaron Wise",
+    "salary": 470000
+  },
+  {
+    "pga_id": 50493,
+    "name": "Justin Suh",
+    "salary": 465000
+  },
+  {
+    "pga_id": 48119,
+    "name": "Ben Taylor",
+    "salary": 460000
+  },
+  {
+    "pga_id": 32640,
+    "name": "Troy Merritt",
+    "salary": 455000
+  },
+  {
+    "pga_id": 34255,
+    "name": "Joseph Bramlett",
+    "salary": 450000
+  },
+  {
+    "pga_id": 47988,
+    "name": "Nick Hardy",
+    "salary": 445000
+  },
+  {
+    "pga_id": 26596,
+    "name": "Ryan Moore",
+    "salary": 440000
+  },
+  {
+    "pga_id": 46441,
+    "name": "Robby Shelton",
+    "salary": 435000
+  },
+  {
+    "pga_id": 46113,
+    "name": "Ryan McCormick",
+    "salary": 430000
+  },
+  {
+    "pga_id": 38991,
+    "name": "Alejandro Tosti",
+    "salary": 425000
+  },
+  {
+    "pga_id": null,
+    "name": "Carl Yuan",
+    "salary": 420000
+  },
+  {
+    "pga_id": 59836,
+    "name": "Pierceson Coody",
+    "salary": 415000
+  },
+  {
+    "pga_id": null,
+    "name": "Seonghyeon Kim",
+    "salary": 410000
+  },
+  {
+    "pga_id": 51600,
+    "name": "Jimmy Stanger",
+    "salary": 405000
+  },
+  {
+    "pga_id": 27064,
+    "name": "Jhonattan Vegas",
+    "salary": 400000
+  },
+  {
+    "pga_id": null,
+    "name": "Dylan Wu",
+    "salary": 395000
+  },
+  {
+    "pga_id": 27936,
+    "name": "Martin Laird",
+    "salary": 390000
+  },
+  {
+    "pga_id": 48887,
+    "name": "Matt Wallace",
+    "salary": 385000
+  },
+  {
+    "pga_id": null,
+    "name": "Thorbjorn Olesen",
+    "salary": 380000
+  },
+  {
+    "pga_id": 30163,
+    "name": "Henrik Norlander",
+    "salary": 375000
+  },
+  {
+    "pga_id": 23320,
+    "name": "Ryan Palmer",
+    "salary": 370000
+  },
+  {
+    "pga_id": 35310,
+    "name": "Lanto Griffin",
+    "salary": 365000
+  },
+  {
+    "pga_id": 28420,
+    "name": "Ryan Brehm",
+    "salary": 360000
+  },
+  {
+    "pga_id": 50095,
+    "name": "Austin Smotherman",
+    "salary": 355000
+  },
+  {
+    "pga_id": 47128,
+    "name": "Richy Werenski",
+    "salary": 350000
+  },
+  {
+    "pga_id": 46435,
+    "name": "Austin Cook",
+    "salary": 345000
+  },
+  {
+    "pga_id": null,
+    "name": "Norman Xiong",
+    "salary": 340000
+  },
+  {
+    "pga_id": 33413,
+    "name": "Ben Martin",
+    "salary": 335000
+  },
+  {
+    "pga_id": null,
+    "name": "Matthew NeSmith",
+    "salary": 330000
+  },
+  {
+    "pga_id": 49228,
+    "name": "Keita Nakajima",
+    "salary": 325000
+  },
+  {
+    "pga_id": 50497,
+    "name": "Adrien Dumont de Chassart",
+    "salary": 320000
+  },
+  {
+    "pga_id": 60004,
+    "name": "Jacob Bridgeman",
+    "salary": 315000
+  },
+  {
+    "pga_id": 39327,
+    "name": "Ben Silverman",
+    "salary": 310000
+  },
+  {
+    "pga_id": 59442,
+    "name": "Parker Coody",
+    "salary": 305000
+  },
+  {
+    "pga_id": 45609,
+    "name": "Tyler Duncan",
+    "salary": 300000
+  },
+  {
+    "pga_id": 52372,
+    "name": "Cameron Champ",
+    "salary": 295000
+  },
+  {
+    "pga_id": 33486,
+    "name": "Roger Sloan",
+    "salary": 290000
+  },
+  {
+    "pga_id": 37212,
+    "name": "Paul Barjon",
+    "salary": 285000
+  },
+  {
+    "pga_id": 25818,
+    "name": "Scott Piercy",
+    "salary": 280000
+  },
+  {
+    "pga_id": 56149,
+    "name": "Wilson Furr",
+    "salary": 275000
+  },
+  {
+    "pga_id": 47663,
+    "name": "Kevin Dougherty",
+    "salary": 270000
+  },
+  {
+    "pga_id": 24140,
+    "name": "Sean O'Hair",
+    "salary": 265000
+  },
+  {
+    "pga_id": 51070,
+    "name": "Vincent Norrman",
+    "salary": 260000
+  },
+  {
+    "pga_id": 46601,
+    "name": "Trey Mullinax",
+    "salary": 255000
+  },
+  {
+    "pga_id": 66743,
+    "name": "Luke Clanton",
+    "salary": 250000
+  },
+  {
+    "pga_id": 33199,
+    "name": "Matteo Manassero",
+    "salary": 245000
+  },
+  {
+    "pga_id": 37278,
+    "name": "Nicholas Lindheim",
+    "salary": 240000
+  },
+  {
+    "pga_id": 59141,
+    "name": "Matt McCarty",
+    "salary": 235000
+  },
+  {
+    "pga_id": 49590,
+    "name": "Frankie Capan III",
+    "salary": 230000
+  },
+  {
+    "pga_id": 52514,
+    "name": "Trace Crowe",
+    "salary": 225000
+  },
+  {
+    "pga_id": 57586,
+    "name": "Jesper Svensson",
+    "salary": 220000
+  },
+  {
+    "pga_id": 33122,
+    "name": "Russell Knox",
+    "salary": 220000
+  },
+  {
+    "pga_id": 32448,
+    "name": "James Hahn",
+    "salary": 215000
+  },
+  {
+    "pga_id": 33597,
+    "name": "Harry Higgs",
+    "salary": 215000
+  },
+  {
+    "pga_id": 27330,
+    "name": "Josh Teater",
+    "salary": 215000
+  },
+  {
+    "pga_id": 34431,
+    "name": "Robert Streb",
+    "salary": 215000
+  },
+  {
+    "pga_id": 48319,
+    "name": "Tom Whitney",
+    "salary": 210000
+  },
+  {
+    "pga_id": 24980,
+    "name": "Scott Gutschewski",
+    "salary": 210000
+  },
+  {
+    "pga_id": 37338,
+    "name": "Zecheng Dou",
+    "salary": 210000
+  },
+  {
+    "pga_id": 27974,
+    "name": "Sung Kang",
+    "salary": 210000
+  },
+  {
+    "pga_id": 48699,
+    "name": "Callum Tarren",
+    "salary": 205000
+  },
+  {
+    "pga_id": 57123,
+    "name": "Steven Fisk",
+    "salary": 205000
+  },
+  {
+    "pga_id": 60882,
+    "name": "Thomas Rosenmueller",
+    "salary": 205000
+  },
+  {
+    "pga_id": 55165,
+    "name": "Noah Goodwin",
+    "salary": 205000
+  },
+  {
+    "pga_id": 39859,
+    "name": "Cristobal Del Solar",
+    "salary": 200000
+  },
+  {
+    "pga_id": 58605,
+    "name": "Quade Cummins",
+    "salary": 200000
+  },
+  {
+    "pga_id": 64594,
+    "name": "Angel Hidalgo",
+    "salary": 200000
+  },
+  {
+    "pga_id": null,
+    "name": "Thirston Lawrence",
+    "salary": 200000
+  },
+  {
+    "pga_id": 63121,
+    "name": "William Mouw",
+    "salary": 200000
+  },
+  {
+    "pga_id": 47056,
+    "name": "Rikuya Hoshino",
+    "salary": 200000
+  },
+  {
+    "pga_id": 50823,
+    "name": "Tom McKibbin",
+    "salary": 200000
+  },
+  {
+    "pga_id": 46646,
+    "name": "Antoine Rozner",
+    "salary": 200000
+  }
+]
