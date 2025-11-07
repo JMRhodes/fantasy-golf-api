@@ -16,10 +16,10 @@ export default class Tournament extends BaseModel {
   @column()
   declare status: 'upcoming' | 'in-progress' | 'completed'
 
-  @column()
+  @column({ serializeAs: 'start_date' })
   declare startDate: DateTime
 
-  @column()
+  @column({ serializeAs: 'end_date' })
   declare endDate: DateTime
 
   @column.dateTime({ autoCreate: true, serializeAs: null })

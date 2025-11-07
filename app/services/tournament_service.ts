@@ -20,8 +20,9 @@ export class TournamentService {
     return tournament
   }
 
-  async find(id: number): Promise<Tournament | null> {
-    return await Tournament.find(id)
+  async find(id: number): Promise<ModelObject | null> {
+    const tournament = await Tournament.find(id)
+    return tournament ? tournament.serialize() : null
   }
 
   async delete(id: number) {
