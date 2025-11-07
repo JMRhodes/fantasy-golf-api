@@ -1,12 +1,11 @@
 import Tournament from '#models/tournament'
-import db from '@adonisjs/lucid/services/db'
 import type { TournamentSchemaType } from '#validators/tournament'
 import { DateTime } from 'luxon'
+import type { ModelObject } from '@adonisjs/lucid/types/model'
 export class TournamentService {
-  async all(): Promise<Tournament[]> {
-    return await db
-      .from('tournaments')
-      .select('id', 'name', 'description', 'status', 'start_date', 'end_date')
+  async all(): Promise<ModelObject[]> {
+    const tournaments = await Tournament.all()
+    return tournaments.map((tournament) => tournament.serialize())
   }
 
   async create(payload: TournamentSchemaType): Promise<Tournament> {
@@ -22,10 +21,10 @@ export class TournamentService {
   }
 
   async find(id: number): Promise<Tournament | null> {
-    return await db.from('tournaments').where('id', id).first()
+    return await Tournament.find(id)
   }
 
   async delete(id: number) {
-    return await db.from('tournaments').where('id', id).delete()
+    return await Tournament.query().where('id', id).delete()
   }
 }
