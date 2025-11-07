@@ -1,13 +1,27 @@
 @hostname = localhost
 @port = 3333
 @host = {{hostname}}:{{port}}
+@version = api/v1
 @contentType = application/json
 
 ###
-GET http://{{host}}/tournaments
+GET http://{{host}}/{{version}}/tournaments
 Content-Type: {{contentType}}
 
 ###
 
-GET http://{{host}}/tournaments/2
+GET http://{{host}}/{{version}}/tournaments/1
 Content-Type: {{contentType}}
+
+###
+
+POST http://{{host}}/{{version}}/tournaments
+Content-Type: {{contentType}}
+
+{
+  "name": "Spring Invitational",
+  "description": "Annual spring golf tournament",
+  "status": "upcoming",
+  "startDate": "2024-04-10",
+  "endDate": "2024-04-15"
+}
