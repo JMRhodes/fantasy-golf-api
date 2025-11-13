@@ -1,7 +1,8 @@
 import { DateTime } from 'luxon'
-import type { HasMany } from '@adonisjs/lucid/types/relations'
-import { BaseModel, column, hasMany } from '@adonisjs/lucid/orm'
+import type { HasMany, ManyToMany } from '@adonisjs/lucid/types/relations'
+import { BaseModel, column, hasMany, manyToMany } from '@adonisjs/lucid/orm'
 import Result from '#models/result'
+import Team from './team.js'
 
 export default class Player extends BaseModel {
   @column({ isPrimary: true })
@@ -24,4 +25,9 @@ export default class Player extends BaseModel {
 
   @hasMany(() => Result)
   declare results: HasMany<typeof Result>
+
+  @manyToMany(() => Team, {
+    pivotTable: 'player_teams',
+  })
+  declare teams: ManyToMany<typeof Team>
 }

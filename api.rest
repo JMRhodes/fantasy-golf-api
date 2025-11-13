@@ -1,0 +1,67 @@
+@hostname = localhost
+@port = 3333
+@host = {{hostname}}:{{port}}
+@version = api/v1
+@contentType = application/json
+
+### GET ALL TOURNAMENTS
+
+GET http://{{host}}/{{version}}/tournaments
+Content-Type: {{contentType}}
+
+### GET TOURNAMENT BY ID
+
+GET http://{{host}}/{{version}}/tournaments/2
+Content-Type: {{contentType}}
+
+### CREATE TOURNAMENT
+
+POST http://{{host}}/{{version}}/tournaments
+Content-Type: {{contentType}}
+
+{
+  "name": "Hawaii Invitational",
+  "description": "A prestigious golf tournament held in Hawaii.",
+  "status": "upcoming",
+  "startDate": "2026-01-10",
+  "endDate": "2026-01-15"
+}
+
+### DELETE TOURNAMENT
+
+DELETE http://{{host}}/{{version}}/tournaments/3
+Content-Type: {{contentType}}
+
+### GET ALL PLAYERS
+GET http://{{host}}/{{version}}/players
+Content-Type: {{contentType}}
+
+### GET PLAYER BY ID
+
+GET http://{{host}}/{{version}}/players/4
+Content-Type: {{contentType}}
+
+### DELETE PLAYER
+
+DELETE http://{{host}}/{{version}}/players/3
+Content-Type: {{contentType}}
+
+
+### GET ALL TEAMS
+
+GET http://{{host}}/{{version}}/teams
+Content-Type: {{contentType}}
+
+### GET TEAM BY ID
+
+GET http://{{host}}/{{version}}/teams/5
+Content-Type: {{contentType}}
+
+### CREATE TEAM
+
+POST http://{{host}}/{{version}}/teams
+Content-Type: {{contentType}}
+
+{
+  "name": "Placeholder Team"
+}
