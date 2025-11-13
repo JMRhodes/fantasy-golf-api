@@ -50,6 +50,7 @@ Content-Type: {{contentType}}
 ### GET ALL TEAMS
 
 GET http://{{host}}/{{version}}/teams
+  ?limit=25
 Content-Type: {{contentType}}
 
 ### GET TEAM BY ID
@@ -63,5 +64,10 @@ POST http://{{host}}/{{version}}/teams
 Content-Type: {{contentType}}
 
 {
-  "name": "Placeholder Team"
+  "name": "Jolly 1"
 }
+
+### DELETE TEAM
+
+DELETE http://{{host}}/{{version}}/teams/1
+Content-Type: {{contentType}}

@@ -1,12 +1,15 @@
 import Team from '#models/team'
 import type { ModelObject } from '@adonisjs/lucid/types/model'
 import type { TeamSchemaType } from '#validators/team'
-import { DateTime } from 'luxon'
-import tournament from '#models/tournament'
+
+export type QueryAll = {
+  limit: number
+  offset: number
+}
 
 export class TeamService {
-  async all(): Promise<ModelObject[]> {
-    const teams = await Team.all()
+  async all({ limit, offset }: QueryAll): Promise<ModelObject[]> {
+    const teams = await Team.query().limit(limit).offset(offset)
     return teams.map((team) => team.serialize())
   }
 
