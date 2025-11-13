@@ -9,13 +9,14 @@ export default class TeamsController {
   constructor(private teamService: TeamService) {}
 
   async index({ request }: HttpContext) {
-    const params = request.qs()
-    const players = await this.teamService.all({
+    const params = request.qs() // Get query string parameters
+    const paramsObject: QueryAll = {
       limit: Number(params.limit) || 10,
       offset: Number(params.offset) || 0,
-    } as QueryAll)
+    }
+    const players = await this.teamService.all(paramsObject)
 
-    return { data: players }
+    return { data: players, params: paramsObject }
   }
 
   async store({ request }: HttpContext) {

@@ -13,17 +13,16 @@ export class TeamService {
     return teams.map((team) => team.serialize())
   }
 
-  async find(id: number) {
-    const team = await Team.find(id)
-    return team ? team.serialize() : null
-  }
-
   async create(payload: TeamSchemaType): Promise<Team> {
     const team = await Team.create({
       name: payload.name,
     })
-
     return team
+  }
+
+  async find(id: number) {
+    const team = await Team.find(id)
+    return team ? team.serialize() : null
   }
 
   async delete(id: number) {
