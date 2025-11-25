@@ -30,6 +30,7 @@ export default await Env.create(new URL('../', import.meta.url), {
   | Variables for admin user seeding
   |----------------------------------------------------------
   */
+  ADMIN_FULL_NAME: Env.schema.string(),
   ADMIN_EMAIL: Env.schema.string({ format: 'email' }),
   ADMIN_PASSWORD: Env.schema.string(),
 
