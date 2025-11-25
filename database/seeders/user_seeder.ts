@@ -1,5 +1,5 @@
 import { BaseSeeder } from '@adonisjs/lucid/seeders'
-import User from '#models/User'
+import User from '#models/user'
 import env from '#start/env'
 
 export default class extends BaseSeeder {
